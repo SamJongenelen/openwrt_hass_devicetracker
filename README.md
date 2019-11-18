@@ -24,6 +24,7 @@ Once the package is installed, you can modify `/etc/config/hass-tracker` to your
 ### Authentication
 
 Due to auth changes in Home Assistant 0.78 there are now two authentication methods, the new and preferred option being a [long-lived access token](https://developers.home-assistant.io/docs/en/auth_api.html#long-lived-access-token) that can be generated from the web UI. The deprecated API password method continues to work as long you have an API password set. If both are configured, token auth will be preferred.
+As per Home assistant [0.101.0](https://github.com/home-assistant/home-assistant/pull/27656) the API password method will no longer work.
 
 ## Note on missed events
 
